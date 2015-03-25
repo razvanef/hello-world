@@ -1,0 +1,155 @@
+body {
+	background-color: #ebebeb;
+}
+.continer {
+	max-width: 1024px;
+	width: 100%;
+	margin: 50px auto;
+	overflow: hidden;
+	display: block;
+}
+nav img {
+	width: 30px;
+}
+.bloc {
+	overflow: hidden;
+	display: block;
+	border-radius: 7px;
+	background: #ffffff;
+	margin-bottom: 30px;
+	border-left: 3px solid #dcdcdc;
+	border-bottom: 4px solid #dcdcdc;
+}
+.navbar {
+	color: #cdcdcd;
+	border: none;
+	border-left: 3px solid #dcdcdc;
+	border-bottom: 4px solid #dcdcdc;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar-nav>li {
+	 margin: 0 3px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#map {
+	background: #fff;
+	min-height: 300px;
+	text-align: center;
+	padding: 30px;
+}
+#map img {
+	width:100%;
+	margin-bottom: 20px
+}
+p {
+	margin-top: 20px;
+}
+.btn {
+	color: #fff;
+	background-color: #dd5557;
+}
+#map .btn {
+	width: 100%;
+}
+span {
+	color: #dd5557;
+	font-weight: bold;
+	font-size: 18px;
+}
+#text {
+	padding: 20px;
+}
+#meteo {
+	background-color: #dd5555;
+	padding: 25px;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+#meteo img {
+	width: 25%;
+}
+#meteo b {
+	vertical-align: middle;
+}
+.data {
+	text-align: center;
+	padding: 20px 0 10px;
+}
+#zile {
+	background-color: #dd5555;
+	padding: 20px;
+}
+#zile table {
+	color: #fff;
+	text-align: center;
+}
+#player {
+	overflow: auto;
+}
+#player img {
+	width: 30%;
+	float: left;
+}
+#piesa {
+	width: 70%;
+}
+#piesa, #search {
+	float: left;
+	padding: 20px;
+}
+#play {
+	  overflow: auto;
+}
+#play a {
+	float: left;
+}
+#search {
+	width: 100%;
+}
+#search .btn {
+	margin: 0 auto 0;
+	display: block;
+}
+#search .form-control {
+	margin-bottom: 10px;
+}
+#add {
+	float: left;
+	margin: 5px 0 10px;
+}
+#video {
+	position: relative;
+}
+#video a {
+   position: absolute;
+   display: block;
+   background: url(images/over.png);
+   left: 50%;
+   top: 50%;
+   transform: translateY(-60%) translateX(-50%);
+   width: 64px;
+   height: 64px;
+   opacity: 0.7;
+}
+#video:hover #click {
+	opacity: 1;
+}
+.sageti {
+	color: #dd5555;
+}
+.outoftime {
+	color: #a63936;
+}
+audio {
+	width: 100%;
+}
+.azi {
+	text-decoration: underline;
+}
